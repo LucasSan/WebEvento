@@ -1,0 +1,212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Usuario.master.cs" Inherits="SistemaGestaoConferencia.Usuario" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Bootstrap/css/bootstrap.css" rel="Stylesheet" type="text/css" />
+    <link href="Bootstrap/css/bootstrap-responsive.css" rel="Stylesheet" type="text/css" />
+    <link href="Styles/botoes.css" rel="Stylesheet" type="text/css" />
+    <link href="Styles/TelaPrincipalUsuario.css" rel="Stylesheet" type="text/css" />
+    <link href="Styles/master.css" rel="Stylesheet" type="text/css" />
+    <link href="Styles/layout.css" rel="Stylesheet" type="text/css" />
+
+    
+    <style type="text/css">
+        .combo_sel_pequisa
+        {
+            width: 200px;
+        }
+        .CaracteristicaSeparacao
+        {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #CCCCCC;
+            text-align: center;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .BoxPerfilMaster
+        {
+            width: auto;
+            margin: 10px;
+        }
+        .divider1
+        {
+            height: 20px;
+        }
+        .divider2
+        {
+            height: 15px;
+        }
+        
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                        </span>
+                    </button>
+                    <a class="brand" href="#">Web Evento</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li><a href="#client">Clientes</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Gerenciar
+                                <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Novo Evento</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#contact">Relatórios</a></li>
+                            <li><a href="#contact">Financeiro</a></li>
+                            <li><a href="#contact">Contatos</a></li>                            
+                        </ul>                        
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <td valign="top">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="BoxEstilo BoxEstiloLatera" style="margin-top: 60px; margin-left: 100px;
+                                width: 280px;">
+                                <div class="BoxPerfilMaster">
+                                    <table>
+                                        <tbody>
+                                            <tr style="cursor: pointer;">
+                                                <td style="width: 35px;" rowspan="2">
+                                                    <img src='../../Imagem/5.jpg' width='80' height='30' class='img-polaroid' />
+                                                </td>
+                                                <td>
+                                                    <span class="textoSan05" style="line-height: 11px;"><strong>Lucas Germano</strong></span><br />
+                                                </td>
+                                                <td style="width: 23px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="label-info" style="font-weight: bold; color: #FFFFFF;">Diretor </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            <td colspan="3">
+                                                <div class="btn-group">                   
+                                                    <button onclick="verPerfil(); return false;" rel="tooltip" data-original-title="ver seu perfil"
+                                                        class="btn btnPerfil">
+                                                        <i class="icon-user"></i>
+                                                    </button>
+                                                    <button onclick="verFavoritos(); return false;" id="btVerEmail" rel="tooltip" data-original-title="eventos favoritos"
+                                                        class="btn btnPerfil">
+                                                        <i class="icon-star"></i>
+                                                    </button>
+                                                    <input id="CampoImovelPop" rel="tooltip" style="left: -1px;" data-original-title="código do imóvel"
+                                                        id="appendedPrependedInput" class="btn campoPerfil" size="16" type="text">
+                                                    <div id="AbreImovelPop" style="left: -1px; top: 0px; width: 41px; height: 20px; padding: 4px 8px;" rel="tooltip"
+                                                        data-original-title="buscar" class="btn btnPerfil" >
+                                                        <i class="icon-search"></i>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="divider2">
+                            </div>
+                            <div class="btn-group" data-toggle="buttons-radio" style="margin-left: 100px; width: 280px;">
+                                <button id="btnBusca" type="button" style="font-size: 12px; padding: 4px 7px; height: 35px;"
+                                    class="btn active">
+                                    busca</button>
+                                <button id="btnCalendario" type="button" style="font-size: 12px; padding: 4px 7px;
+                                    height: 35px;" class="btn">
+                                    calendário</button>
+                                <%--                                <button id="btnPCN" type="button" style="font-size: 12px; padding: 4px 7px; height: 35px;"
+                                    class="btn">
+                                    PCN</button>
+                                <button id="btnAtendimentos" type="button" style="font-size: 12px; padding: 4px 7px;
+                                    height: 35px;" class="btn">
+                                    atendimentos</button>--%>
+                            </div>
+                            <div class="divider2">
+                            </div>
+                            <div id="boxBusca" class="BoxEstilo BoxEstiloLatera" style="margin-left: 100px; width: 280px;">
+                                <div class="BoxPerfilMaster">
+                                    <div class="well well2" style="background-color: #000044 !important;">
+                                        BUSCA <a href="../Imovel/BuscaAvancada.aspx">
+                                            <button class="btn-india" style="margin-left: 14px;" type="button">
+                                                Busca Avançada <i class="icon-share icon-white"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <br />
+                                    <div class="itens">
+                                        Estado</div>
+                                    <br clear="all" />
+                                    <select class="combo_sel_pequisa" id="sel_celula" style="color: #666666;">
+                                    </select>
+                                    <div class="itens">
+                                        Cidade</div>                                    
+                                    <br clear="all" />
+                                    <select class="combo_sel_pequisa" id="sel_credenciada" style="color: #666666;">
+                                    </select>
+                                    <div class="CaracteristicaSeparacao">
+                                    </div>
+                                    <br clear="all" />
+                                    <div class="Titulo3">
+                                        Bairros</div>
+                                    <select class="combo_sel_pequisa" id="sel_bairro" style="color: #666666;" name="D1">
+                                    </select>
+                                    <div class="CaracteristicaSeparacao">
+                                    </div>
+                                    <div class="Titulo3">
+                                        Entre...</div>
+                                    <div class="CampoPrecoImovelRefinamento">
+                                        R$
+                                        <input class="CampoPreco" id="PrecoDeAfinamento" type="text" />,00 e R$
+                                        <input class="CampoPreco" id="PrecoAteRefinamento" type="text" />,00
+                                    </div>
+                                    <div class="CaracteristicaSeparacao">
+                                    </div>
+                                    <div class="btn-india btn-large btn-block" id="bt_pesquisa_simples">
+                                        <div style="color: #FFF; font-size: 14px; text-align: center;">
+                                            buscar eventos</div>
+                                    </div>
+                                    <br />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td valign="top">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    </form>
+
+    <script type="text/javascript" src="../../Bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../Bootstrap/js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="../../Bootstrap/js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery-1.9.1.js"></script>    
+</body>
+</html>

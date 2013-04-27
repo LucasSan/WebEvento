@@ -1,0 +1,24 @@
+﻿.BoxEstilo {
+background-color: #FAFAFA;
+background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1));
+border-radius: 4px 4px 4px 4px;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset,
+ 0 -2px 0 rgba(0, 0, 0, 0.1) inset,
+ 0 0 10px rgba(255, 255, 255, 0.5) inset,
+ 0 0 0 1px rgba(0, 0, 0, 0.1),
+ 0 2px 4px rgba(0, 0, 0, 0.2);
+color: #3C3C3C;
+display: inline-block;
+font-size: 0.85em;
+}
+
+.BoxEstiloLateral
+{
+    width:100%;
+}
+
+.BoxPerfilMaster
+{
+    width:auto;
+    margin:10px;
+}

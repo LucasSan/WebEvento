@@ -1,0 +1,231 @@
+﻿#steps, #steps .ui-tabs, #steps .ui-tabs-panel{padding: 0 !important; padding-top: 20px !important; border: 0px !important; background: #fff !important; margin: 0;} 
+        #steps .ui-widget-header  {background: #fff !important; border: 0 !important; border-bottom: 1px solid #aaaaaa !important; }
+       .ui-tabs .ui-tabs-nav li a {padding: 6px !important;}        
+        #steps input[type='text'], select{border: 1px solid #abadb3;height: 20px;font-size: 15px;}
+        #steps select{font-size: 15px !important;	height: 24px !important;} 
+        ul{padding: 5px;margin: 0;}
+        li{list-style: none;}
+        #steps label{font-family: Arial;font-size: 13px;font-weight: bold;}
+        .weightNormal{font-weight: normal !important;	}
+        #cep{width: 142px;}
+        #estado{width: 137px; }
+        #tipoComplemento{width: 158px;}
+        #cidade{width: 233px;}
+        #bairro, #segundoBairro, #logradouro, #numEndereco{width: 177px;}
+        #compEndereco{width: 173px;}
+        #btSegundoBairro{font-family: Arial;font-size: 15px;font-weight: bold;color: #9e9e9e;cursor: pointer;}
+        #logradouroEndereco{width: 415px;}
+        #map_canvas{background-color: #f0f0f0;border: 1px dotted #f58020;margin: auto; width: 630px; height: 294px;margin: auto;}
+        .dica{font-family: Arial;font-size: 11px;}
+        .dica a:link{text-decoration: none;color: #000;font-weight: bold;}
+        .divSplitLine{margin-top: 20px;margin-bottom: 15px;border-bottom: 1px dashed #999999;}
+        #tabs-6 .divSplitLine{margin-top: 10px;margin-bottom: 15px;border-bottom: 1px dashed #999999;}        
+        .btStep{cursor: pointer;}
+        #txtProprietario{width: 230px;}
+        #tipoDeimovel_1, #tipoDeimovel_2, #tipoDeimovel_1_capt, #tipoDeimovel_2_capt{width: 180px;}
+        #valorPreco, #valorCondominio, #valorIPTU{width: 132px;}
+        #txtComissao{width: 102px;}
+        #txtComplementar, #txtObservacoes, #txtAnuncio{width: 474px !important;height: 178px !important;}
+        .wysiwyg{width: 474px !important;}
+        div.wysiwyg iframe{width: 97% !important;}
+        .conf{font-weight: normal;}
+        .style1{width: 29px;height: 33px;}
+        .style2{width: 16px;height: 16px;}
+        .loader{font-family: Arial;font-size: 13px;font-weight: bold;}
+        .btRemover{cursor: pointer;}
+        .itemCarac{width: 310px;height: 35px;}
+        .campoCarac{width: 60px;}
+		#steps .ui-corner-top{}
+		#steps .ui-state-hover{}
+ 		.det_imoDupl{cursor: pointer;}
+ 		#confirmCapt{width:55px;}
+ 		#capt{width:55px;}
+        .tagImovel{background-color:#ccc;width:190px;height:25px;font-family:Arial;font-size:11px;color:#666;margin:2px;line-height:25px;padding-left:5px;float:left;}.removeTag{cursor:pointer;}        
+        #ProprietarioValido2{display:none; float:left;}
+        #ProprietarioInvalido2{display:block;float:left;}
+        #chavesCliente2{float:left; margin-right:10px;}
+        #AotoCompleteClientes2{margin-top:22px;}
+        
+        
+        
+        
+        
+        
+        
+        		#steps .ui-state-default, #steps .ui-state-disabled
+		{
+			background-image:none !important;
+			background-color:#ffa54d !important;
+			color:#fff !important;
+			border: 1px solid #ea8f00;
+			border-bottom:0 none;			
+		}
+		
+        #steps .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited 		
+        {
+            color:#fff !important;	
+        }
+		
+		#steps .ui-state-active
+		{
+			background-image:none !important;
+			background-color:#85241f !important;
+			color:#fff !important;
+			border: 1px solid #ea8f00;
+			border-bottom:0 none;
+		}
+		#steps .ui-state-active a
+		{
+			color:#fff !important;
+		}
+
+
+#TopoInterna
+{
+	width: 100%;
+	height: 28px;
+	margin: 0 0 10px 0;
+	background-repeat: no-repeat;
+}
+	.spanTextoTopoInterno
+	{
+		color:#fff;
+		font-family:Verdana;
+		font-size:12px;
+		font-weight:bold;
+	}
+/*
+LISTA COM FOTO
+*/
+	.BoxListaFoto
+	{
+		border-bottom:1px solid #DFDFDE;
+		height:100px;
+		margin-bottom:10px;
+		margin-left:17px;
+		width:650px;
+	}
+		.FotoImovelLista
+		{
+			float:left;
+			height:80px;
+			margin-right:15px;
+			border:1px solid #ccc;
+			width:110px;
+		}
+		.miniDadosImovel
+		{
+			height:95px;
+			width:520px;
+			
+			float:left;
+		}
+		.DivdeIcones
+		{
+			height:20px;
+			margin-top:5px;
+			text-align:right;
+		}
+	
+/*
+FIM DA LISTA COM FOTO
+*/	
+	
+	
+	
+#PassosDoProcesso
+{
+	width:100%;
+	height:20px;
+	margin:10px 0 10px 0;
+}
+.passoAtivo
+{
+	width: auto;
+	float: left;
+	height: 20px;
+	border-bottom: 2px solid #000;
+	font-family: arial, Helvetica, sans-serif;
+	color: #FF6600;
+	font-size: 11px;
+	border-bottom-color: #FF6600;
+	padding:0 10px 0 10px;
+	font-weight:bold;
+}
+.passoDesativado
+{
+	width: auto;
+	float: left;
+	height: 20px;
+	border-bottom: 2px solid #000;
+	font-family: arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 10px;
+	border-bottom-color: #999999;
+	padding: 0 10px 0 10px;
+}
+.BoxFormulario
+{
+	width: 646px;
+	padding: 15px;
+	background-color: #F8F8F8;
+	margin:10px 0 0 0;
+}
+.BoxFormularioBotao
+{
+	width: 646px;
+	padding: 15px;
+	margin:10px 0 0 0;
+}
+.RotuloFormulario
+{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #000;
+	border-bottom-color: #999;
+	font-family: verdana;
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+	.BoxLabelFormulario
+	{
+		width:100%;
+		height:auto;
+		clear:left;
+		padding:5px;
+	}
+		.LabelFormulario
+		{
+			width: 190px;
+			height: 20px;
+			float: left;
+			font-family: arial;
+			font-size: 11px;
+			color: #333333;
+			line-height:20px;
+			text-align:right;
+		}
+		.CampoFormulario
+		{
+			width:auto;
+			
+			float:left;
+			font-size: 11px;
+			color: #000;
+			line-height:20px;
+			padding:0 0 0 5px;
+		}
+		.AjudaFormulario
+		{
+			width:20px;
+			height:20px;
+			float:left;
+		}
+#TxErro
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #FF0000;
+}

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0DEE1A20-EC80-4913-ACF6-005293A69BD2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaGestaoConferencia</RootNamespace>
+    <AssemblyName>SistemaGestaoConferencia</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetOpenAuth">
+      <HintPath>..\..\..\..\..\Downloads\google+\DotNetOpenAuth-4.2.2.13055\Bin-net4.0\DotNetOpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\MySQL\MySQL Connector Net 6.6.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\MySQL\MySQL Connector Net 6.6.4\Assemblies\v4.0\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\MySQL\MySQL Connector Net 6.6.4\Assemblies\v4.0\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Bootstrap\css\bootstrap-responsive.css" />
+    <Content Include="Bootstrap\css\bootstrap-responsive.min.css" />
+    <Content Include="Bootstrap\css\bootstrap.css" />
+    <Content Include="Bootstrap\css\bootstrap.min.css" />
+    <Content Include="Bootstrap\css\masterPage.css" />
+    <Content Include="Bootstrap\img\fundo.png" />
+    <Content Include="Bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="Bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="Bootstrap\img\menu.png" />
+    <Content Include="Bootstrap\img\slide-01.jpg" />
+    <Content Include="Bootstrap\img\slide-02.jpg" />
+    <Content Include="Bootstrap\img\slide-03.jpg" />
+    <Content Include="Bootstrap\img\slide-04.jpg" />
+    <Content Include="Bootstrap\js\bootstrap-affix.js" />
+    <Content Include="Bootstrap\js\bootstrap-alert.js" />
+    <Content Include="Bootstrap\js\bootstrap-button.js" />
+    <Content Include="Bootstrap\js\bootstrap-carousel.js" />
+    <Content Include="Bootstrap\js\bootstrap-collapse.js" />
+    <Content Include="Bootstrap\js\bootstrap-dropdown.js" />
+    <Content Include="Bootstrap\js\bootstrap-modal.js" />
+    <Content Include="Bootstrap\js\bootstrap-popover.js" />
+    <Content Include="Bootstrap\js\bootstrap-scrollspy.js" />
+    <Content Include="Bootstrap\js\bootstrap-tab.js" />
+    <Content Include="Bootstrap\js\bootstrap-tooltip.js" />
+    <Content Include="Bootstrap\js\bootstrap-transition.js" />
+    <Content Include="Bootstrap\js\bootstrap-typeahead.js" />
+    <Content Include="Bootstrap\js\bootstrap.js" />
+    <Content Include="Bootstrap\js\bootstrap.min.js" />
+    <Content Include="Eventos\Gerenciar\ListarEventos.aspx" />
+    <Content Include="Eventos\Gerenciar\ListarParticipantes.aspx" />
+    <Content Include="Eventos\Gerenciar\NovoEvento.aspx" />
+    <Content Include="Eventos\Xml\Bairro.aspx" />
+    <Content Include="Eventos\Xml\Cidade.aspx" />
+    <Content Include="Eventos\Xml\Endereco.aspx" />
+    <Content Include="Eventos\Xml\Estado.aspx" />
+    <Content Include="Eventos\Xml\Logradouro.aspx" />
+    <Content Include="Eventos\Xml\LogradouroBairro.aspx" />
+    <Content Include="Imagem\5.jpg" />
+    <Content Include="Imagem\dica_icone.jpg" />
+    <Content Include="Imagem\mais.gif" />
+    <Content Include="Imagem\mapa_bh.png" />
+    <Content Include="Imagem\step_arrow.jpg" />
+    <Content Include="Imagem\transp.png" />
+    <Content Include="Scripts\googleMaps.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.7.custom.min.js" />
+    <Content Include="Scripts\jquery-ui.multidatespicker.js" />
+    <Content Include="Scripts\jquery.datepick-pt-BR.js" />
+    <Content Include="Scripts\jquery.datepick.js" />
+    <Content Include="Scripts\jquery.maskedinput.js" />
+    <Content Include="Scripts\jquery.price_format_1.7.js" />
+    <Content Include="Scripts\jquery.ui.datepicker-es.js" />
+    <Content Include="Scripts\jquery.ui.datepicker.js" />
+    <Content Include="Scripts\LoginGoogle.js" />
+    <Content Include="Scripts\NovoEvento.js" />
+    <Content Include="Styles\botoes.css" />
+    <Content Include="Styles\ImovelNovo.css" />
+    <Content Include="Styles\layout.css" />
+    <Content Include="Styles\master.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\ListaParticipantes.css" />
+    <Content Include="Styles\TelaPrincipalUsuario.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Gerenciar\ListarEventos.aspx.cs">
+      <DependentUpon>ListarEventos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Gerenciar\ListarEventos.aspx.designer.cs">
+      <DependentUpon>ListarEventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Gerenciar\ListarParticipantes.aspx.cs">
+      <DependentUpon>ListarParticipantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Gerenciar\ListarParticipantes.aspx.designer.cs">
+      <DependentUpon>ListarParticipantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Gerenciar\NovoEvento.aspx.cs">
+      <DependentUpon>NovoEvento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Gerenciar\NovoEvento.aspx.designer.cs">
+      <DependentUpon>NovoEvento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Xml\Bairro.aspx.cs">
+      <DependentUpon>Bairro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Xml\Bairro.aspx.designer.cs">
+      <DependentUpon>Bairro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Xml\Cidade.aspx.cs">
+      <DependentUpon>Cidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Xml\Cidade.aspx.designer.cs">
+      <DependentUpon>Cidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Xml\Endereco.aspx.cs">
+      <DependentUpon>Endereco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Xml\Endereco.aspx.designer.cs">
+      <DependentUpon>Endereco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Xml\Estado.aspx.cs">
+      <DependentUpon>Estado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Xml\Estado.aspx.designer.cs">
+      <DependentUpon>Estado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Xml\Logradouro.aspx.cs">
+      <DependentUpon>Logradouro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Xml\Logradouro.aspx.designer.cs">
+      <DependentUpon>Logradouro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos\Xml\LogradouroBairro.aspx.cs">
+      <DependentUpon>LogradouroBairro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos\Xml\LogradouroBairro.aspx.designer.cs">
+      <DependentUpon>LogradouroBairro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.Master.cs">
+      <DependentUpon>Usuario.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario.Master.designer.cs">
+      <DependentUpon>Usuario.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Eventos\Action\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bootstrap\img\Thumbs.db" />
+    <Content Include="Usuario.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Conexao\Conexao.csproj">
+      <Project>{7E8BEE3D-552F-4332-9D19-C2279F14E839}</Project>
+      <Name>Conexao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{A925AB3D-56CD-4667-AAF1-3B4CA45F5D30}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilidade\Utilidade.csproj">
+      <Project>{3668B815-C08E-4935-8E4D-54469B4F28DB}</Project>
+      <Name>Utilidade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5194</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

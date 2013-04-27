@@ -1,0 +1,1225 @@
+﻿html
+{
+	overflow-x: hidden;
+}
+
+body 
+{
+	margin:0 0 0 0;
+	font-family:Arial;
+	font-size:12px;
+	overflow-x: hidden;
+}
+
+.h4class
+{
+    color: Red;
+    font-weight: normal;
+    font-size: 12px;                
+}
+
+.h1class
+{
+    color: #707070;
+    font-weight: normal;
+    font-size: 12px;
+    border-bottom: 1px solid gray;    
+    margin: 10px 0;
+    padding: 2px;    
+    text-align: left;
+}
+
+.h1class2
+{
+    color: #707070;
+    font-weight: normal;
+    font-size: 12px;     
+    text-align: left;
+}
+
+/* Botões tela Ticket */
+#ctl00_btn_listarChamados
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+    float:left;
+}
+
+#ctl00_btn_listarChamados:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+#ctl00_btn_novo
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+    float:left;
+}
+
+#ctl00_btn_novo:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+#ctl00_ContentPlaceHolder1_btn_buscar
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+    float:left;
+}
+
+#ctl00_ContentPlaceHolder1_btn_buscar:hover
+{
+    background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+/* Botão da Tela de Download.aspx */
+#ctl00_contentConteudo_btnMostrar
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+    float:left;
+}
+
+#ctl00_contentConteudo_btnMostrar:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+
+#ctl00_contentConteudo_btnRemover
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+    float:right;
+}
+
+#ctl00_contentConteudo_btnRemover:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+#ctl00_contentConteudo_btnBuscar
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+    float:left;
+}
+
+#ctl00_contentConteudo_btnBuscar:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+/* Botão da Tela de Upload.aspx */
+#ctl00_contentConteudo_btnEnviar
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+    float:left;
+}
+
+#ctl00_contentConteudo_btnEnviar:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+/* Botão da tela de Gerar Anuncios.aspx */
+#ctl00_contentConteudo_gerarAnuncio
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+    float:right;
+}
+
+#ctl00_contentConteudo_gerarAnuncio:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+/* Botao da tela de GerenciarIp.aspx */
+#ctl00_contentConteudo_btnSelecionar
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+}
+
+#ctl00_contentConteudo_btnSelecionar:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+/* Botoes da GerenciaIp.aspx */
+#ctl00_contentConteudo_btnRemoverIp
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+}
+
+#ctl00_contentConteudo_btnRemoverIp:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+
+#ctl00_contentConteudo_CadastraNovoIp
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold; 
+}
+
+#ctl00_contentConteudo_CadastraNovoIp:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+/* Botoes da FimdePrazo2.aspx */
+#ctl00_contentConteudo_btnAlterarStatusHoje
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold;    
+}
+
+#ctl00_contentConteudo_btnAlterarStatusHoje:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+#ctl00_contentConteudo_btnAlterarStatusExpitaTresDias
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#ctl00_contentConteudo_btnAlterarStatusExpitaTresDias:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+#ctl00_contentConteudo_btnAlterarAlterarStatusVencidos
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    cursor: pointer;
+    padding-left: 1em;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    float: left; 
+}
+
+#ctl00_contentConteudo_btnAlterarAlterarStatusVencidos:hover
+{
+    background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+
+#ctl00_contentConteudo_btnAlterarStatusExpiraSeteDias
+{
+    color: #fff !important;
+    border-top-color: #ea8f00;
+    border-right-color: #ea8f00;
+    border-left-color: #ea8f00;
+    border-bottom-color: #ea8f00;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-image: none !important;
+    background-color: rgb(255, 165, 77) !important;
+    padding-top: 0.4em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    cursor: pointer;
+    padding-left: 1em;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    float: left;
+}
+
+#ctl00_contentConteudo_selecionarTodosStatusSeteDias
+{
+    float: right;
+}
+
+#ctl00_contentConteudo_selecionarTodosStatusHoje
+{
+    float: right;
+}
+
+#ctl00_contentConteudo_selecionarTodosStatusTresDias
+{
+    float: right;
+}
+
+#ctl00_contentConteudo_btnAlterarStatusExpiraSeteDias:hover
+{
+	background-image:none !important;
+	background-color:#85241f !important;
+	color:#fff !important;
+	border: 1px solid #ea8f00;
+}
+    
+#MenuUsuario
+{
+	width: 100%;
+	height: 25px;
+	background-image: url('images/fundoTopo.jpg');
+}
+	.AgrupaMenu
+	{
+		width:960px;
+		height:25px;
+		margin:0 auto 0 auto;
+	}
+		.ItemMenuUsuariohover
+		{
+			background-image: url('images/fundoTopoHover.jpg');
+		}
+		.ItemMenuUsuario
+		{
+			height: 25px;
+			padding: 0 15px 0 15px;
+			/*background-image: url('images/fundoTopoHover.jpg');*/
+			background-repeat:repeat-x;
+			text-align:center;
+			line-height:30px;
+			float:left;
+			color:#fff;
+			font-weight:bold;
+			cursor:pointer;
+			/*text-shadow:  1px 1px 1px #000;*/
+		}
+		.ItemSeparaMenuUsuario
+		{
+			height: 25px;
+			width: 2px;
+			background-image: url('images/SeparaMenuUsuario.jpg');
+			background-repeat:no-repeat;
+			float:left;
+		}
+		#CampoBusca
+		{
+			height:30px;
+			width:524px;
+			float:left;
+		}
+			.BuscaImovelEndereco
+			{
+				width: 450px;
+				
+				border: none;
+				margin-top: 5px;
+				float: right;
+				font-size: 11px;
+				color: #949494;
+				font-style: italic;
+
+				
+				background-image: url('images/FundoBusca.jpg');
+				background-position: right;
+				background-repeat: no-repeat;
+			}
+	
+	
+#Topo
+{
+	width:100%;
+	height:83px;
+	background-image: url('images/FundoMarcaTopo.jpg');
+	text-align:center;
+}
+
+#Topo2
+{
+	width:100%;
+	height:83px;
+	background-image: url('images/FundoMarcaTopo.jpg');
+	text-align:center;
+}
+
+
+#MenuSistema
+{
+	width: 100%;
+	height: 30px;
+	background-image: url('images/fundoMenuSistema.jpg');
+}
+	.ItemMenuSitemaHover
+	{
+		background-image: url('images/fundoMenuSistemaHover.jpg');
+	}
+	.ItemMenuSitema
+	{
+		height: 30px;
+		padding: 0 10px 0 10px;
+		cursor: pointer;
+		text-align: center;
+		line-height: 30px;
+		font-size: 11px;
+		float: left;
+		color: #000;
+	}
+	.SeparaItemMenuSitema
+	{
+		height:30px;
+		width:1px;
+		background-image: url('images/SeparafundoMenuSistema.jpg');
+		float:left;
+	}
+	.submenu
+	{
+		width:150px;
+		position:absolute;
+		margin:auto 0 0 -10px;
+		display:none;
+		z-index:101;
+		text-align:left;
+		border-right:1px solid #666;
+	}
+		.SubMenuSistema
+		{
+			width:140px;
+			height:25px;
+			border-bottom:1px dotted #000;
+			padding:0 0 0 10px;
+			border-left:3px solid #f58020;
+			line-height:25px;
+			background-color:#fff;
+		}
+
+/* Busca por Região do Sistema */
+#AgrupaRegiao{width:100%;}
+	#MenuRegiao
+	{
+		width: 100%;
+		height: 190px;
+		background-color: #1b394c;
+		background-image: url('images/fundo_topo_regiao.jpg');
+		display:none;
+	}
+	#BtnRegiao
+	{
+		/*background-image: url('images/btnBuscaRegiao.jpg');*/
+		width: 100%;
+		height: 25px;
+		padding-top: 5px;
+		font-weight: bold;
+		color: #fff;
+		text-align: center;
+		font-size: 12px;
+		cursor:pointer;
+		background-color:#294657;
+
+	}
+	
+	    	    
+
+	
+        #ajax_loader
+        {
+        		width:100%;
+        		height:40px;
+            position: fixed;
+            top: 0px;	
+            left: -1px;
+            font-weight: bold;
+            display: none;
+						padding:0;
+						text-align:center;  
+						z-index:9999;      
+        }
+        
+        .laranja_ajax
+        {
+					background-color:#F08523;
+					height:2px;
+					width:100%;
+          position: fixed;
+					z-index:9998;      
+        }
+        
+        .branco_ajax
+        {
+          position: fixed;
+					background-color:#FFF;
+					top:0px;
+					height:102px;
+					width:100%;
+					z-index:9998;     
+					border-bottom:3px solid #F08523;
+					border-top:3px solid #F08523;
+        }
+                
+        .texto_ajax
+        {
+        	padding-top:23px;
+        	padding-bottom:5px;
+					width: 200px;
+					height:40px;
+					margin:0 auto;         
+					text-align:center;
+					z-index:9997;      
+        }
+    
+        #MenuRegiao
+        {
+            color: #fff;	
+        }
+        #MenuRegiao a
+        {
+            color: #fff;
+            text-decoration: none;
+        }
+    
+        #MenuRegiao ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding-left: 4px;
+            padding-top: 3px;
+        }
+    
+        .link_regiao_bh, .link_regiao_sp, .link_cidade_bh, .link_cidade_sp
+        {
+            cursor: pointer;	
+        }
+        
+        .bairros_regiao
+        {
+            display: none;	    
+        }
+        
+        #regioes_sp
+        {
+        	
+        }
+        #regioes_bh
+        {
+			
+        }
+        
+        #div_map_bh
+        {
+            width: 345px;
+            height: 165px;
+            border: 0px solid #fff;
+            background-image: url('Imagem/mapa_bh.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        #div_map_sp
+        {
+            width: 320px;
+            height: 165px;
+            border: 0px solid #fff;
+            background-image: url('images/mapa_sp.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+
+        }        
+        #div_map_bh .link_regiao_bh, #div_map_sp .link_regiao_sp
+        {
+            width: 0px;
+            height: 14px;
+            border: 0px solid #fff;
+            position: absolute;
+        }
+        #div_map_bh img, #div_map_sp img 
+        {
+        	border: 0px solid #fff;
+        	height: 22px;
+        }
+        #link_map_regiao_bh_1
+        {
+			left: 121px;
+			top: 98px;
+        }
+        #link_map_regiao_bh_2
+        {
+			left: 199px;
+			top: 56px;
+		} 
+		#link_map_regiao_bh_3
+		{
+			left: 223px;
+			top: 39px;
+        }
+        #link_map_regiao_bh_4
+        {
+			left: 195px;
+			top: 29px;
+        }
+        #link_map_regiao_bh_5
+        {
+			left: 133px;
+			top: 44px;
+        }
+        #link_map_regiao_bh_6
+        {
+			left: 195px;
+			top: 10px;
+        }
+        #link_map_regiao_bh_7
+        {
+			left: 159px;
+			top: 66px;
+        }
+        #link_map_regiao_bh_8
+        {
+			left: 163px;
+			top: 19px;
+        }
+        #link_map_regiao_bh_9
+        {
+			left: 159px;
+			top: -1px;
+        }
+
+
+        #link_map_regiao_sp_12                                                                 
+        {
+            left: 149px;
+            top: 36px;
+        }
+
+        #link_map_regiao_sp_17                                                                 
+        {
+            left: 204px;
+            top: 40px;
+        }
+        #link_map_regiao_sp_16
+        {
+            left: 126px;
+            top: 16px;
+        }
+        #link_map_regiao_sp_18
+        {
+            left: 126px;
+            top: 40px;
+        }
+        #link_map_regiao_sp_15                                                                 
+        {
+            left: 129px;
+            top: 97px;
+        }
+        
+		.titleMapa
+		{
+			font-size: 18px;
+			font-family: Arial;
+			color: #f18721;	
+		}
+		.divListaLinks
+		{
+			margin-top: 10px;	
+			width: 190px;
+		}
+		.divListaLinks ul
+		{
+			float: left;
+			width: 90px;
+			padding-top: 10px;
+		}
+		.link_regiao_bh
+		{
+			font-family: Arial;
+			font-size: 12px;	
+		}
+
+/* Fim da Busca por Região */
+
+/* Centro do Sistema, (Busca e Miolo) */
+#Centro
+{
+	width:960px;
+	height:auto;
+	margin:0px auto 0 auto;
+}
+	#CentroEsquerdo
+	{
+		width: 240px;
+		float:left;
+		border-left: 1px solid #cfcfcf;
+		border-right: 1px solid #cfcfcf;
+		border-bottom:1px solid #cfcfcf;
+	}
+		#UsuarioLogado
+		{
+			width: 210px;
+			background-color:#f5f5f5;
+			padding:15px;
+			height:200px;
+			
+		}
+			#MargingUsuario{width: 210px;}
+				#FotoUsuario{width: 85px;height: 100px;border: 1px solid #999;padding:3px;background-color:#fff; float:left;}
+					#Foto{width:85px;height:100px;}
+				#InfoUsuario
+				{
+					width:100px;
+					height:104px;
+					float:left;
+					margin-left:8px;
+				}
+				#Logomarca
+				{
+					clear:left;
+					width:200px;
+				}
+		#BuscaImovel, #EditaImovel
+		{
+			width: 240px;
+			background-color:#f8f8f8;
+		}
+		
+		
+			#BuscaImovelTitulo, #EditaImovelTitulo
+			{
+				background-color:#f08523;
+				width:240px;
+				height:30px;
+				text-align:center;
+				line-height:30px;
+			}
+			#BuscaImovelCampos
+			{
+				width: 209px;
+				padding: 15px;
+				height: 790px;
+				background-color: #fbfbfb;
+			}
+			
+			#EditaImovelCampos
+			{
+				width: 209px;
+				padding: 15px;
+				height: 65px;
+				background-color: #fbfbfb;
+			}
+			
+			
+			
+	#CentroMiolo
+	{
+		width: 680px;
+		float: left;
+		margin-left:20px;
+		margin-top:20px;
+	}
+		.LinhaSepara
+		{
+			height:2px;
+			border-bottom:1px dotted #767676;
+		}
+		#BoxModulo
+		{
+			width:190px;
+			position:absolute;
+			z-index:102;
+			margin-left:30px;
+			display:none;
+		}
+			#BoxModuloConteudo
+			{
+				width:190px;
+				background-image: url('images/images/BoxModulo_02.png');
+			}
+				.DivLinkBoxModulo
+				{
+					margin-left:15px;
+					height:17px;
+				}
+	
+	    #ClickGrupo
+	    {
+	        cursor:pointer;
+	    }
+	
+	    #ClickGrupo:hover
+	    {
+	        text-decoration: underline;
+	    }
+	
+		#BoxGrupo
+		{
+			width:190px;
+			position:absolute;
+			z-index:102;
+			display:none;
+		}
+			#BoxGrupoConteudo
+			{
+				width:190px;
+				background-image: url('images/images/BoxModulo_02.png');
+			}
+			
+			    #ListaGrupos
+			    {
+			        margin-left:11px;
+			        margin-right:11px;
+			    }
+			
+				.DivLinkBoxGrupo
+				{
+					margin-left:15px;
+					height:17px;
+				}
+	
+	
+	
+/* Fim do Centro */
+
+.SeparadorHorizontal
+{
+	clear:left;
+	width:100%;
+	height:10px;
+}
+
+
+#Rodape
+{
+	/*background-image: url('images/rodape_interno.jpg');*/
+	background-color:#f5f5f5;
+	background-position:center top;
+	background-repeat: no-repeat;
+	width:100%;
+	min-height: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border-top: 1px solid #cfcfcf;*/
+}
+
+#finalRodape
+{
+	width:100%;
+	height: 45px;
+	background-color: #f3761a;
+	color: #fff;
+	padding-top: 23px;
+	font-family: Arial;
+}
+
+#linksRodape td
+{
+	padding: 5px;
+	padding-top:3px;
+	padding-bottom:3px;	
+}
+/*
+-----------------------------------------------
+-----------------------------------------------
+:: Aqui temos a informação do Rodapé
+-----------------------------------------------
+-----------------------------------------------
+*/
+.tituloRodape
+{
+    color: #666666;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#linksRodape
+{
+	width: 915px;
+	margin: auto;
+	color: #353535;
+}
+
+.listaLinksRodape
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width:130px;
+	margin-top: 5px;
+}
+
+.listaLinksRodape li
+{
+	font-size: 11px;
+}
+a.linkRodapex:link {
+	color: #8a8a8a;
+	text-decoration: none;
+}
+a.linkRodapex:visited {
+	text-decoration: none;
+	color: #8a8a8a;
+}
+a.linkRodapex:hover
+{
+    text-decoration: underline;
+    color: #8a8a8a;
+}
+a.linkRodapex:active {
+	text-decoration: none;
+	color: #8a8a8a;
+}
+
+/*
+-----------------------------------------------
+-----------------------------------------------
+:: Fim do Rodapé
+-----------------------------------------------
+-----------------------------------------------
+*/
+#div_block_all
+{
+    background-color:#000000;
+    border-style:none;
+    border-width:medium;
+    display:none;
+    height:100%;
+    left:0;
+    margin:0 0 0 0;
+    opacity:0.6;
+    filter:alpha(opacity=60); /*Opacity on IE*/
+    padding:0 0 0 0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;		
+}
